@@ -490,9 +490,6 @@ button.swiper-pagination-bullet {
     min-height: 60px;
   }
 }
-.header__body.hb-act {
-  min-height: 80px;
-}
 .header__logo {
   background-color: #383a3f;
   border: 2px solid #8283a7;
@@ -778,6 +775,11 @@ button.swiper-pagination-bullet {
 .mainblock {
   max-height: 100vh;
   overflow: hidden;
+}
+@media (max-width: 61.99875em) {
+  .touch .mainblock {
+    margin: -60px 0px 0px 0px;
+  }
 }
 .mainblock__body {
   position: relative;
